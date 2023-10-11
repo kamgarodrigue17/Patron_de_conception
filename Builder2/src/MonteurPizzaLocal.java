@@ -1,5 +1,8 @@
 public class MonteurPizzaLocal  extends MonteurPizza{
-
+    
+    @Override
+     public Pizza getPizza() { return pizza; }
+    
     @Override
     public void monterPate() {
         pizza.setPate("feuille de macabo");
@@ -14,5 +17,8 @@ public class MonteurPizzaLocal  extends MonteurPizza{
     public void monterGarniture() {
         pizza.setGarniture("escargot");
      }
+
+    @Override
+    public void creerNouvellePizza() { pizza = new Pizza(); }
     
 }

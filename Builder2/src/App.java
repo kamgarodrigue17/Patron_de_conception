@@ -9,6 +9,10 @@ directeur.construire().print();
     directeur = new Directeur( new MonteurPizzaReine());
 directeur.construire().print();
 
+ System.out.println("creation d une pizza  LOcale ");
+    directeur = new Directeur( new MonteurPizzaLocal());
+directeur.construire().print();
+
 
         
 
