@@ -4,7 +4,7 @@ ce referentielle nous aurons trois branches construction,structuration,comportem
 structuration et comportement` que nous alons apprendre dans ce cour.
 
 # Structure des branches
-chaque branche contients des dossiers chaque dossier contient une aplication java avec `app.java` qui contient le main  
+chaque branche contients des dossiers chaque dossier contient une aplication java avec `.src/app.java` qui contient le main  
 NB: les dossier situer dans chaque branche ne sont pas liés. chaque dossier est un projet java
 
 # IDE Utiliser 
